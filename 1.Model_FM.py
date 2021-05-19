@@ -21,10 +21,10 @@ import itertools
 
 # COMMAND ----------
 
-item = pd.read_csv('/dbfs//FileStore/shared_uploads/phuong.le@man-es.com/in_item.csv',sep=",")
-customer = pd.read_csv('/dbfs//FileStore/shared_uploads/phuong.le@man-es.com/in_customer.csv',sep=",")
-interactions = pd.read_csv('/dbfs//FileStore/shared_uploads/phuong.le@man-es.com/in_interaction.csv',sep=",")
-repeatolist= pd.read_csv('/dbfs//FileStore/shared_uploads/phuong.le@man-es.com/in_repeatolist.csv',sep=",")
+item = pd.read_csv('/dbfs//FileStore/shared_uploads/in_item.csv',sep=",")
+customer = pd.read_csv('/dbfs//FileStore/shared_uploads/in_customer.csv',sep=",")
+interactions = pd.read_csv('/dbfs//FileStore/shared_uploads/in_interaction.csv',sep=",")
+repeatolist= pd.read_csv('/dbfs//FileStore/shared_uploads/in_repeatolist.csv',sep=",")
 
 # COMMAND ----------
 
